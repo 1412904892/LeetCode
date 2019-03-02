@@ -31,11 +31,3 @@ public:
     }
 };
 
-int main(){
-    Solution sol;
-    vector<int> vec={2,3,4,2,6,2,5,1};
-    vector<int> ans=sol.maxSlidingWindow(vec,3);
-    for (int i=0;i<ans.size();i++){
-        cout<<ans[i]<<' ';
-    }
-}
