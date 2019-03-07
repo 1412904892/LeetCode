@@ -45,12 +45,6 @@ public:
                 }
             }
         }
-        for (int i=0;i<raw;i++){
-            for (int j=0;j<col;j++){
-                cout<<vis[i][j]<<' ';
-            }
-            cout<<endl;
-        }
         return max_len;
     }
 };
