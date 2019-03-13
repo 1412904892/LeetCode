@@ -26,7 +26,7 @@ public:
         while (!que.empty()){
             fron=que.front();
             que.pop();
-            cout<<fron.change_str<<endl;
+            //cout<<fron.change_str<<endl;
         
             if (fron.change_str==end) return fron.step;
 
